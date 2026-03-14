@@ -4,6 +4,18 @@
 
 ---
 
+## 🖼️ System Preview
+
+<div align="center">
+  <img src="extension/icons/mockup.png" alt="ScamGuard Demo Mockup" width="600">
+  <p><em>Figure 1: Real-time phishing detection alert on a suspicious domain.</em></p>
+  <br>
+  <img src="extension/icons/icon128.png" alt="ScamGuard Logo" width="128">
+  <p><em>Figure 2: Official ScamGuard Security Shield Branding.</em></p>
+</div>
+
+---
+
 ## 🚀 Key Engineering Highlights & Metrics
 
 - **Real-Time Threat Mitigation**: Achieved **<1.5s latency** from page load to risk assessment using asynchronous content extraction and debounced API polling.
