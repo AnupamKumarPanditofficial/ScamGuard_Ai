@@ -7,10 +7,10 @@
 ## 🖼️ System Preview
 
 <div align="center">
-  ![ScamGuard Demo Mockup](./extension/icons/mockup.png)
+  <img src="extension/icons/mockup.png" alt="ScamGuard Demo Mockup" width="600">
   <p><em>Figure 1: Real-time phishing detection alert on a suspicious domain.</em></p>
   <br>
-  <img src="./extension/icons/icon128.png" alt="ScamGuard Logo" width="128">
+  <img src="extension/icons/icon128.png" alt="ScamGuard Logo" width="128">
   <p><em>Figure 2: Official ScamGuard Security Shield Branding.</em></p>
 </div>
 
