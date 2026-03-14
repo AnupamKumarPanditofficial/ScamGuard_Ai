@@ -1,0 +1,79 @@
+#scam-guard-warning {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 300px;
+    background-color: #d32f2f;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    border-radius: 8px;
+    z-index: 1000000;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    overflow: hidden;
+    animation: sg-slide-in 0.3s ease-out;
+}
+
+@keyframes sg-slide-in {
+    from { transform: translateX(110%); }
+    to { transform: translateX(0); }
+}
+
+.sg-header {
+    background-color: #b71c1c;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.sg-icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.sg-title {
+    font-weight: bold;
+    flex-grow: 1;
+    font-size: 14px;
+}
+
+.sg-close {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0 5px;
+}
+
+.sg-body {
+    padding: 15px;
+}
+
+.sg-score-container {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sg-score-label {
+    font-size: 13px;
+    opacity: 0.9;
+}
+
+.sg-score-value {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.sg-reasons {
+    margin: 0;
+    padding-left: 18px;
+    font-size: 12px;
+}
+
+.sg-reasons li {
+    margin-bottom: 5px;
+}
